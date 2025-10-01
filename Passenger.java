@@ -31,7 +31,7 @@ public class Passenger {
         ArrayList<Passenger> passengers = new ArrayList<>();
         passengers.add(passenger); 
         passengers.add(passenger2);
-        Car myCar = new Car(passengers, 100); 
+        Car myCar = new Car(100); 
         myCar.seatsRemaining(); 
         myCar.getCapacity(); 
         myCar.printManifest();

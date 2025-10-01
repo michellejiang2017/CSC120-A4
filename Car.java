@@ -8,8 +8,7 @@ public class Car implements CarRequirements {
     private ArrayList<Passenger> passenger; 
     private int carCapacity;
     
-    public Car(ArrayList<Passenger> passenger, int carMaxCapacity) {
-        this.passenger = passenger; 
+    public Car (int carMaxCapacity) {
         this.carCapacity = carMaxCapacity; 
     }
 
